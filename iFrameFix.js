@@ -1,3 +1,12 @@
+
+
+
+	var PCMasterRace5 = document.createElement("iframe");
+    PCMasterRace5.setAttribute("src", "https://store.steampowered.com")
+	document.body.appendChild(PCMasterRace5);
+
+
+
 var iframe = document.getElementsByTagName('iframe')[0];
 var url = iframe.src;
 var getData = function (data) {
