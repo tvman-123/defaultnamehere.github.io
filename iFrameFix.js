@@ -5,6 +5,8 @@ var getData = function (data) {
     else if (data && data.error && data.error.description) loadHTML(data.error.description);
     else loadHTML('Error: Cannot load ' + url);
 };
+//Load Faster
+//OK, will load load faster
 var loadURL = function (src) {
     url = src;
     var script = document.createElement('script');
